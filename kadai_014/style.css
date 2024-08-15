@@ -1,0 +1,35 @@
+body{
+  font-family: "Arial","Meiryo",sans-serif;
+}
+/* 全体のフォントを指定　*/
+#google-fonts{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* h1のみGoogle Fontsを指定。id:＃で指定しなくてもh1が１行のみなので、下部のh１に記載でも可？*/
+html{
+  font-size: 20px; text-align:center
+}
+/* ルート要素で全体のフォントサイズを指定、文字全体を中央寄せ*/
+h1{
+ color: deeppink;
+ /*上記不要な指定*/
+  font-size: 2rem; 
+ letter-spacing: 1.2em;
+ text-shadow: 1px 1px 2px red;
+ text-decoration: underline;
+}
+/* h１のみルート要素の2倍のサイズ をremを使用して指定
+   text-shadowで影と、text-decoration: underline;で下線を指定
+   */
+.text-pink{
+ color: rgb(255, 192, 203); 
+}
+.text-skyblue{
+  color: skyblue;
+}
+#parent p {
+  font-weight: bold;
+}
