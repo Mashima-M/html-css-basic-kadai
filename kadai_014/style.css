@@ -19,7 +19,7 @@ h1{
   font-size: 2rem; 
  letter-spacing: 1.2em;
  text-shadow: 1px 1px 2px red;
- text-decoration: underline;
+ border-bottom:solid 3px
 }
 /* h１のみルート要素の2倍のサイズ をremを使用して指定
    text-shadowで影と、text-decoration: underline;で下線を指定
